@@ -50,4 +50,5 @@ R = np.array([
     [0,3,4,0,4]
 ])
 knn = UserKNN(R)
-knn.predict_all()
+print('User user:')
+print(knn.predict_all())

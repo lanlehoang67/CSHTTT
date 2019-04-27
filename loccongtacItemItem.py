@@ -1,5 +1,5 @@
 import numpy as np 
-from uunbcf import UserKNN
+from loccongtacUserUser import UserKNN
 #item-item
 class ItemKNN(UserKNN):
     pass
@@ -10,4 +10,5 @@ R = np.array([
     [0,3,4,0,4]
 ])
 knn = ItemKNN(R.T)
+print('Item item:')
 print(knn.predict_all().T)
